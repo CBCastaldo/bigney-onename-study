@@ -1,0 +1,83 @@
+[
+    {
+        "personFirstName": "Keith",
+        "personMiddleName": "Allen",
+        "personLastName": "Bigney",
+        "birthDate": "05/06/1965",
+        "birthPlace": "Garden Grove, Orange, California, United States",
+        "deathDate": "",
+        "deathPlace": "",
+        "imageUrl": ""
+    },
+    {
+        "personFirstName": "Steven",
+        "personMiddleName": "Roy",
+        "personLastName": "Bigney",
+        "birthDate": "10/23/1939",
+        "birthPlace": "Redford, Wayne, Michigan, United States",
+        "deathDate": "",
+        "deathPlace": "",
+        "imageUrl": ""
+    },
+    {
+        "personFirstName": "Eleanor",
+        "personMiddleName": "Louise",
+        "personLastName": "Bigney",
+        "birthDate": "04/06/1923",
+        "birthPlace": "Brockton, Plymouth, Massachusetts, United States",
+        "deathDate": "02/05/2013",
+        "deathPlace": "",
+        "imageUrl": ""
+    },
+    {
+        "personFirstName": "Georgianna",
+        "personMiddleName": "Mildred",
+        "personLastName": "Bigney",
+        "birthDate": "07/29/1924",
+        "birthPlace": "Brockton, Plymouth, Massachusetts, United States",
+        "deathDate": "04/30/1947",
+        "deathPlace": "Los Angeles, Los Angeles, California, United States",
+        "imageUrl": ""
+    },
+    {
+        "personFirstName": "Geraldine",
+        "personMiddleName": "",
+        "personLastName": "Bigney",
+        "birthDate": "02/01/1926",
+        "birthPlace": "Brockton, Plymouth, Massachusetts, United States",
+        "deathDate": "04/28/1926",
+        "deathPlace": "Brockton, Plymouth, Massachusetts, United States",
+        "imageUrl": ""
+    },
+    {
+        "personFirstName": "Katherine",
+        "personMiddleName": "Mae",
+        "personLastName": "Bigney",
+        "birthDate": "08/30/1927",
+        "birthPlace": "Detroit, Wayne, Michigan, United States",
+        "deathDate": "12/04/2012",
+        "deathPlace": "Eureka, Humboldt, California, United States",
+        "imageUrl": ""
+    },
+    {
+        "personFirstName": "George",
+        "personMiddleName": "Oliver",
+        "personLastName": "Bigney",
+        "birthDate": "12/25/1931",
+        "birthPlace": "Detroit, Wayne, Michigan, United States",
+        "deathDate": "04/19/1995",
+        "deathPlace": "La Puente, Los Angeles, California, United States",
+        "imageUrl": ""
+    },
+    {
+        "personFirstName": "Alberta",
+        "personMiddleName": "Jane",
+        "personLastName": "Bigney",
+        "birthDate": "09/26/1933",
+        "birthPlace": "Detroit, Wayne, Michigan, United States",
+        "deathDate": "06/30/2016",
+        "deathPlace": "Orem, Utah, Utah, United States",
+        "imageUrl": ""
+    }
+
+]

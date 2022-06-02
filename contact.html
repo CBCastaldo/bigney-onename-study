@@ -12,21 +12,28 @@
     <header>
       
         <div class="logo-box"><img src="images/Bigney One-Name Study white square.png" alt="Bigney One-Name Study logo"></div>
-        <nav>
+        <!-- <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="statistics.html">Statistics</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-        </nav>
+        </nav> -->
     </header>
     <!-- Side navigation -->
-    <div class="sidenav">
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
       <a href="#">British Bigney Groups</a>
       <a href="#">Canadian Bigney Groups</a>
       <a href="#">French Bigney Groups</a>
       <a href="#">US Bigney Groups</a>
+      <a href="statistics.html">Statistics</a>
+      <a href="contact.html">Contact</a>
     </div>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
   <main>
     <div class="contact-grid">
       <h2 class="contact-headline-1">Contact</h2>
@@ -81,7 +88,7 @@
     
   </main>
   <footer>
-    <p>&copy; 2021 Bigney One-Name Study </p>
+    &copy;<span id="year">Bigney One-Name Study</span> | Contact
 
     <div class = "social" style="overflow: hidden; display: inline-block;">
       <a href="https://bigney-onename-study.github.io/site-plan.html" target="_blank">
@@ -95,5 +102,6 @@
       </a>
     </div>
   </footer>
+  <script src="scripts/main.js"></script>
   </body>
 </html>

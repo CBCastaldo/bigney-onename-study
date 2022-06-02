@@ -1,0 +1,64 @@
+[
+    {
+        "personFirstName": "George",
+        "personMiddleName": "Oliver",
+        "personLastName": "Bigney",
+        "birthDate": "08/19/1899",
+        "birthPlace": "Truro, Colchester, Nova Scotia, Canada",
+        "deathDate": "02/17/1948",
+        "deathPlace": "Redondo Beach, Los Angeles, California, United States",
+        "imageUrl": ""
+    },
+    {
+        "personFirstName": "Henry",
+        "personMiddleName": "Oliver",
+        "personLastName": "Bigney",
+        "birthDate": "01/19/1873",
+        "birthPlace": "Great Village, Colchester, Nova Scotia, Canada",
+        "deathDate": "08/07/1937",
+        "deathPlace": "Springhill, Cumberland, Nova Scotia, Canada",
+        "imageUrl": ""
+    },
+    {
+        "personFirstName": "Susan",
+        "personMiddleName": "Adalaide",
+        "personLastName": "Bigney",
+        "birthDate": "12/08/1900",
+        "birthPlace": "Truro, Colchester, Nova Scotia, Canada",
+        "deathDate": "01/18/2000",
+        "deathPlace": "Palmetto, Manatee, Florida, United States",
+        "imageUrl": ""
+    },
+    {
+        "personFirstName": "Winona",
+        "personMiddleName": "Pearl",
+        "personLastName": "Bigney",
+        "birthDate": "08/25/1905",
+        "birthPlace": "East Mines, Colchester, Nova Scotia, Canada",
+        "deathDate": "10/06/1987",
+        "deathPlace": "Sturgis, St. Joseph, Michigan, United States",
+        "imageUrl": ""
+    },
+    {
+        "personFirstName": "Harry",
+        "personMiddleName": "Lawrence",
+        "personLastName": "Bigney",
+        "birthDate": "07/23/1906",
+        "birthPlace": "Truro, Colchester, Nova Scotia, Canada",
+        "deathDate": "04/27/1961",
+        "deathPlace": "Riverside, Riverside, California, United States",
+        "imageUrl": ""
+    },
+    {
+        "personFirstName": "Walter",
+        "personMiddleName": "Lyman Kenneth",
+        "personLastName": "Bigney",
+        "birthDate": "09/22/1909",
+        "birthPlace": "Amherst, Cumberland, Nova Scotia, Canada",
+        "deathDate": "07/02/1986",
+        "deathPlace": "Linton, Greene, Indiana, United States",
+        "imageUrl": ""
+    }
+
+
+]
