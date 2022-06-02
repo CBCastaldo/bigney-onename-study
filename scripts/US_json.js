@@ -36,7 +36,7 @@ const output = (people) => {
     );
 }
 
-const url = 'http://bigney-onename-study.github.io/JSON/US_Bigney.JSON';
+const url = 'http://bigney-onename-study.github.io/JSON/US_Bigney.json';
 let results = null;
 
 async function getPeople(url) {
@@ -44,6 +44,8 @@ async function getPeople(url) {
     if (response.ok) {
         const data = await response.json();
         output(data);
+    } else (!response.ok); {
+		throw new Error(`HTTP error! status: ${response.status}`);
     }
 };
 
