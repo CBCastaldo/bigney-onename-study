@@ -1,4 +1,4 @@
-let bigneyList = [];
+let(BritishBigneyList) = [];
 
 const output = (people) => {
     people.forEach(
@@ -36,7 +36,7 @@ const output = (people) => {
     );
 }
 
-const url = '';
+const url = 'http://bigney-onename-study.github.io/JSON/British_Bigney.JSON';
 let results = null;
 
 async function getPeople(url) {
@@ -58,71 +58,71 @@ const sortBy = () => {
 
     switch (filter) {
         case 'NameAscending':
-            output(bigneyList.sort(
+            output(BritishBigneyList).sort(
                 (person1, person2) => {
                     let personName1 = person1.personName.toLowerCase();
                     let personName2 = person2.personName.toLowerCase();
                     if (personName1 < personName2) return -1;
                     else if (personName1 > personName2) return 1;
                     else return 0;
-                }));
+                });
             break;
         case 'NameDescending':
-            output(bigneyList.sort(
+            output(BritishBigneyList).sort(
                 (person1, person2) => {
                     let personName1 = person1.personName.toLowerCase();
                     let personName2 = person2.personName.toLowerCase();
                     if (personName1 > personName2) return -1;
                     else if (personName1 < personName2) return 1;
                     else return 0;
-                }));
+                });
             break;
             case 'BirthDateAscending':
-            output(bigneyList.sort(
+            output(BritishBigneyList).sort(
                 (person1, person2) => {
                     let personbirthDate1 = person1.personbirthDate;
                     let personbirthDate2 = person2.personbirthDate;
                     if (personbirthDate1 < personbirthDate2) return -1;
                     else if (personbirthDate1 > personbirthDate2) return 1;
                     else return 0;
-                }));
+                });
             break;
         case 'BirthDateDescending':
-            output(bigneyList.sort(
+            output(BritishBigneyList).sort(
                 (person1, person2) => {
                     let personbirthDate1 = person1.personbirthDate;
                     let personbirthDate2 = person2.personbirthDate;
                     if (personbirthDate1 > personbirthDate2) return -1;
                     else if (personbirthDate1 < personbirthDate2) return 1;
                     else return 0;
-                }));
+                });
             break;
             case 'DeathDateAscending':
-            output(bigneyList.sort(
+            output(BritishBigneyList).sort(
                 (person1, person2) => {
                     let persondeathDate1 = person1.persondeathDate;
                     let persondeathDate2 = person2.persondeathDate;
                     if (persondeathDate1 < persondeathDate2) return -1;
                     else if (persondeathDate1 > persondeathDate2) return 1;
                     else return 0;
-                }));
+                });
             break;
         case 'DeathDateDescending':
-            output(bigneyList.sort(
+            output(BritishBigneyList).sort(
                 (person1, person2) => {
                     let persondeathDate1 = person1.persondeathDate;
                     let persondeathDate2 = person2.persondeathDate;
                     if (persondeathDate1 > persondeathDate2) return -1;
                     else if (persondeathDate1 < persondeathDate2) return 1;
                     else return 0;
-                }));
+                });
             break;
         default:
             // using ternary operators
-            output(bigneyList.sort(
+            output(BritishBigneyList).sort(
                 (person1, person2) => 
                 person1.personName.toLowerCase() > person2.personName.toLowerCase() ? 1 : 
-                    person2.personName.toLowerCase() > person1.personName.toLowerCase() ? -1 : 0));
+                    person2.personName.toLowerCase() > person1.personName.toLowerCase() ? -1 : 0);
             break;
     }
 }
