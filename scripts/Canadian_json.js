@@ -48,13 +48,13 @@ const output = (people) => {
             // article.appendChild(img);
             article.appendChild(linebreak);
 
-            document.querySelector('#people').appendChild(article);
+            document.querySelector('#canadapeople').appendChild(article);
         }
     );
 }
 
 const reset = () => {
-    document.querySelector('#people').innerHTML = '';
+    document.querySelector('#canadapeople').innerHTML = '';
 }
 
 const sortBy = () => {

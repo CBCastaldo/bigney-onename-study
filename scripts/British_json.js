@@ -49,13 +49,13 @@ const output = (people) => {
             article.appendChild(img);
             article.appendChild(linebreak);
 
-            document.querySelector('#people').appendChild(article);
+            document.querySelector('#englishpeople').appendChild(article);
         }
     );
 }
 
 const reset = () => {
-    document.querySelector('#people').innerHTML = '';
+    document.querySelector('#englishpeople').innerHTML = '';
 }
 
 const sortBy = () => {
