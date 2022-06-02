@@ -49,7 +49,7 @@ async function getPeople(url) {
     }
 };
 
-getPeople();
+getPeople(url);
 
 const reset = () => {
     document.querySelector('#people').innerHTML = '';
