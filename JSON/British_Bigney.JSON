@@ -1,8 +1,6 @@
 [
     {
-        "personFirstName": "Hannah",
-        "personMiddleName": "",
-        "personLastName": "Bigney",
+        "personName": "Hannah Bigney",
         "birthDate": "",
         "birthPlace": "",
         "deathDate": "1826-11-12",
@@ -10,9 +8,7 @@
         "imageUrl": ""
     },
     {
-        "personFirstName": "Thomas",
-        "personMiddleName": "",
-        "personLastName": "Bigney",
+        "personName": "Thomas Bigney",
         "birthDate": "1680-01-16",
         "birthPlace": "Honing, Norfolk, England",
         "deathDate": "05/22/1681",
@@ -20,9 +16,7 @@
         "imageUrl": ""
     },
     {
-        "personFirstName": "Robert",
-        "personMiddleName": "",
-        "personLastName": "Bigney",
+        "personName": "Robert Bigney",
         "birthDate": "",
         "birthPlace": "",
         "deathDate": "1828-01-20",

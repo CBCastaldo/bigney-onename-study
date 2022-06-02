@@ -1,8 +1,6 @@
 [
     {
-        "personFirstName": "George",
-        "personMiddleName": "Oliver",
-        "personLastName": "Bigney",
+        "personName": "George Oliver Bigney",
         "birthDate": "1899-08-19",
         "birthPlace": "Truro, Colchester, Nova Scotia, Canada",
         "deathDate": "1948-02-17",
@@ -10,9 +8,7 @@
         "imageUrl": ""
     },
     {
-        "personFirstName": "Henry",
-        "personMiddleName": "Oliver",
-        "personLastName": "Bigney",
+        "personName": "Henry Oliver Bigney",
         "birthDate": "1873-01-19",
         "birthPlace": "Great Village, Colchester, Nova Scotia, Canada",
         "deathDate": "1937-08-07",
@@ -20,9 +16,7 @@
         "imageUrl": ""
     },
     {
-        "personFirstName": "Susan",
-        "personMiddleName": "Adalaide",
-        "personLastName": "Bigney",
+        "personName": "Susan Adalaide Bigney",
         "birthDate": "1900-12-08",
         "birthPlace": "Truro, Colchester, Nova Scotia, Canada",
         "deathDate": "2000-01-18",
@@ -30,9 +24,7 @@
         "imageUrl": ""
     },
     {
-        "personFirstName": "Winona",
-        "personMiddleName": "Pearl",
-        "personLastName": "Bigney",
+        "personName": "Winona Pearl Bigney",
         "birthDate": "1905-08-25",
         "birthPlace": "East Mines, Colchester, Nova Scotia, Canada",
         "deathDate": "1987-10-06",
@@ -40,9 +32,7 @@
         "imageUrl": ""
     },
     {
-        "personFirstName": "Harry",
-        "personMiddleName": "Lawrence",
-        "personLastName": "Bigney",
+        "personName": "Harry Lawrence Bigney",
         "birthDate": "1906-07-23",
         "birthPlace": "Truro, Colchester, Nova Scotia, Canada",
         "deathDate": "1961-04-27",
@@ -50,9 +40,7 @@
         "imageUrl": ""
     },
     {
-        "personFirstName": "Walter",
-        "personMiddleName": "Lyman Kenneth",
-        "personLastName": "Bigney",
+        "personName": "Walter Lyman Kenneth Bigney",
         "birthDate": "1909-09-22",
         "birthPlace": "Amherst, Cumberland, Nova Scotia, Canada",
         "deathDate": "1986-07-02",

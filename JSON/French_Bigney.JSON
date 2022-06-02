@@ -1,8 +1,6 @@
 [
     {
-        "personFirstName": "André",
-        "personMiddleName": "",
-        "personLastName": "Bigney",
+        "personName": "André Bigney",
         "birthDate": "1826-04-16",
         "birthPlace": "Lugon-et-L'Ile-du-Carney, France",
         "deathDate": "",
@@ -10,9 +8,7 @@
         "imageUrl": ""
     },
     {
-        "personFirstName": "Antoine",
-        "personMiddleName": "",
-        "personLastName": "Bigney",
+        "personName": "Antoine Bigney",
         "birthDate": "1844-01-29",
         "birthPlace": "Bouscat, France",
         "deathDate": "",
@@ -20,9 +16,7 @@
         "imageUrl": ""
     },
     {
-        "personFirstName": "Jean",
-        "personMiddleName": "",
-        "personLastName": "Bigney",
+        "personName": "Jean Bigney",
         "birthDate": "",
         "birthPlace": "",
         "deathDate": "1812-05-03",

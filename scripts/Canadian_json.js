@@ -1,6 +1,6 @@
-let(CanadianBigneyList) = [];
+let CanadianBigneyList = [];
 
-const url = 'http://bigney-onename-study.github.io/JSON/Canadian_Bigney.json';
+const url = "../JSON/Canadian_Bigney.json";
 let results = null;
 
 async function getPeople(url) {
@@ -8,8 +8,8 @@ async function getPeople(url) {
     if (response.ok) {
         const data = await response.json();
         output(data);
-    } else (!response.ok); {
-		throw new Error(`HTTP error! status: ${response.status}`);
+    // } else (!response.ok); {
+	// 	throw new Error(`HTTP error! status: ${response.status}`);
     }
 };
 
@@ -35,16 +35,18 @@ const output = (people) => {
             let deathPlace = document.createElement('h4');
             deathPlace.textContent = person.deathPlace;
 
-            let img = document.createElement('img');
-            img.setAttribute('src', person.imageUrl);
-            img.setAttribute('alt', person.personName);
+            // let img = document.createElement('img');
+            // img.setAttribute('src', person.imageUrl);
+            // img.setAttribute('alt', person.personName);
+            linebreak = document.createElement("br");
 
             article.appendChild(personName);
             article.appendChild(birthDate);
             article.appendChild(birthPlace);
             article.appendChild(deathDate);
             article.appendChild(deathPlace);
-            article.appendChild(img);
+            // article.appendChild(img);
+            article.appendChild(linebreak);
 
             document.querySelector('#people').appendChild(article);
         }
@@ -130,5 +132,5 @@ const sortBy = () => {
             break;
     }
 }
-
+// getPeople(url);
 document.querySelector('#sortBy').addEventListener('change', sortBy);

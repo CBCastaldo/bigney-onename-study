@@ -1,8 +1,6 @@
 [
     {
-        "personFirstName": "Keith",
-        "personMiddleName": "Allen",
-        "personLastName": "Bigney",
+        "personName": "Keith Allen Bigney",
         "birthDate": "1965-05-06",
         "birthPlace": "Garden Grove, Orange, California, United States",
         "deathDate": "",
@@ -10,9 +8,7 @@
         "imageUrl": ""
     },
     {
-        "personFirstName": "Steven",
-        "personMiddleName": "Roy",
-        "personLastName": "Bigney",
+        "personName": "Steven Roy Bigney",
         "birthDate": "1939-10-23",
         "birthPlace": "Redford, Wayne, Michigan, United States",
         "deathDate": "",
@@ -20,9 +16,7 @@
         "imageUrl": ""
     },
     {
-        "personFirstName": "Eleanor",
-        "personMiddleName": "Louise",
-        "personLastName": "Bigney",
+        "personName": "Eleanor Louise Bigney",
         "birthDate": "1923-04-06",
         "birthPlace": "Brockton, Plymouth, Massachusetts, United States",
         "deathDate": "2013-02-05",
@@ -30,9 +24,7 @@
         "imageUrl": ""
     },
     {
-        "personFirstName": "Georgianna",
-        "personMiddleName": "Mildred",
-        "personLastName": "Bigney",
+        "personName": "Georgianna Mildred Bigney",
         "birthDate": "1924-07-29",
         "birthPlace": "Brockton, Plymouth, Massachusetts, United States",
         "deathDate": "1947-04-30",
@@ -40,9 +32,7 @@
         "imageUrl": ""
     },
     {
-        "personFirstName": "Geraldine",
-        "personMiddleName": "",
-        "personLastName": "Bigney",
+        "personName": "Geraldine Bigney",
         "birthDate": "1926-02-01",
         "birthPlace": "Brockton, Plymouth, Massachusetts, United States",
         "deathDate": "1926-04-28",
@@ -50,9 +40,7 @@
         "imageUrl": ""
     },
     {
-        "personFirstName": "Katherine",
-        "personMiddleName": "Mae",
-        "personLastName": "Bigney",
+        "personName": "Katherine Mae Bigney",
         "birthDate": "1927-08-30",
         "birthPlace": "Detroit, Wayne, Michigan, United States",
         "deathDate": "2012-12-04",
@@ -60,9 +48,7 @@
         "imageUrl": ""
     },
     {
-        "personFirstName": "George",
-        "personMiddleName": "Oliver",
-        "personLastName": "Bigney",
+        "personName": "George Oliver Bigney",
         "birthDate": "1931-12-25",
         "birthPlace": "Detroit, Wayne, Michigan, United States",
         "deathDate": "1995-04-19",
@@ -70,9 +56,7 @@
         "imageUrl": ""
     },
     {
-        "personFirstName": "Alberta",
-        "personMiddleName": "Jane",
-        "personLastName": "Bigney",
+        "personName": "Alberta Jane Bigney",
         "birthDate": "1933-09-26",
         "birthPlace": "Detroit, Wayne, Michigan, United States",
         "deathDate": "2016-06-30",
