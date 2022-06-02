@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bigney One-Name Study</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+
+    <header>
+      
+        <div class="logo-box"><img src="https://cdn.glitch.me/f8ad6b13-eeaf-4265-9593-ea7bb07c2b2f/Bigney%20One-Name%20Study%20white%20square.png?v=1639536062332" alt="Bigney One-Name Study logo"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="statistics.html">Statistics</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Side navigation -->
+    <div class="sidenav">
+      <a href="#">British Bigney Groups</a>
+      <a href="#">Canadian Bigney Groups</a>
+      <a href="#">French Bigney Groups</a>
+      <a href="#">US Bigney Groups</a>
+    </div>
+  <main>
+    <div class="contact-grid">
+      <h2 class="contact-headline-1">Contact</h2>
+      <p class="contact-paragraph-1">I would love to hear from you! If you can contribute to Bigney research, I would love to include it on the website. Perhaps you would like to share stories of your own Bigney ancestors. It all helps to make this study more helpful to everyone researching Bigneys.</p>
+     
+      <p class="contact-paragraph-2">
+        This website has been compiled from many publicly available sources (including subscription websites) and information submitted by members of The Bigney Family. If you do not wish any information about you to be included on this website, then please contact me and I will remove that information. If you find any information that is incorrect or incomplete, please contact me.
+      </p>
+
+      
+     
+    <div id="feedback"></div>
+      <form>
+        <script>
+            // get the feedback div element so we can do something with it.
+            const feedbackElement = document.getElementById('feedback');
+            // get the form so we can read what was entered in it.
+            const formElement = document.forms[0];
+            // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+            formElement.addEventListener('submit', function(e) {
+            // stop the form from doing the default action
+            e.preventDefault();
+            // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+            feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+            // make the feedback element visible.
+            feedbackElement.style.display = "block";
+            // add a class to move everything down so our message doesn't cover it.
+            document.body.classList.toggle('moveDown');
+        });
+        </script>
+        <ul>
+				<li>
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="user_name" />
+				</li>
+				<li>
+					<label for="mail">E-mail:</label>
+					<input type="email" id="mail" name="user_mail" />
+				</li>
+				<li>
+					<label for="msg">Message:</label>
+					<textarea id="msg" name="user_message"></textarea>
+				</li>
+				<li class="button">
+					<button type="submit">Send your message</button>
+        </li>
+        </ul>
+      </form>
+    </div>
+      <img class="contact-left-img" src="https://cdn.glitch.me/f8ad6b13-eeaf-4265-9593-ea7bb07c2b2f/Canadian%20Flag%20over%20Suspension%20Bridge.png?v=1639459126092" alt="Canadian Flag over Suspension Bridge">
+      <img class="contact-right-img" src="https://cdn.glitch.me/f8ad6b13-eeaf-4265-9593-ea7bb07c2b2f/Oliver%20Bigney.jpg?v=1639459064511" alt="Oliver Bigney 1849-1917">
+    
+  </main>
+  <footer>
+    <p>&copy; 2021 Bigney One-Name Study </p>
+
+    <div class = "social" style="overflow: hidden; display: inline-block;">
+      <a href="https://bigney-onename-study.glitch.me/site-plan.html" target="_blank">
+        <img src="https://cdn.glitch.me/f8ad6b13-eeaf-4265-9593-ea7bb07c2b2f/Site%20Plan.png?v=1639564723065" alt="Site Plan">
+      </a>
+      <a href="https://www.facebook.com" target="_blank">
+        <img src="https://cdn.glitch.me/df977101-c8cb-45df-8ee3-2b7243ff2d6f%2Ffacebook%20(1).png?v=1633848740267" alt="Facebook Page">
+      </a>
+      <a href="https://www.Instagram.com" target="_blank">
+        <img src="https://cdn.glitch.me/df977101-c8cb-45df-8ee3-2b7243ff2d6f%2Finstagram%20(1).png?v=1633848753808" alt="Instagram Page">
+      </a>
+    </div>
+  </footer>
+  </body>
+</html>
