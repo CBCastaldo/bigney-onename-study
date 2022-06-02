@@ -1,5 +1,20 @@
 let(USBigneyList) = [];
 
+const url = 'http://bigney-onename-study.github.io/JSON/US_Bigney.json';
+let results = null;
+
+async function getPeople(url) {
+    const response = await fetch(url);
+    if (response.ok) {
+        const data = await response.json();
+        output(data);
+    } else (!response.ok); {
+		throw new Error(`HTTP error! status: ${response.status}`);
+    }
+};
+
+getPeople(url);
+
 const output = (people) => {
     people.forEach(
         person => {
@@ -35,21 +50,6 @@ const output = (people) => {
         }
     );
 }
-
-const url = 'http://bigney-onename-study.github.io/JSON/US_Bigney.json';
-let results = null;
-
-async function getPeople(url) {
-    const response = await fetch(url);
-    if (response.ok) {
-        const data = await response.json();
-        output(data);
-    } else (!response.ok); {
-		throw new Error(`HTTP error! status: ${response.status}`);
-    }
-};
-
-getPeople(url);
 
 const reset = () => {
     document.querySelector('#people').innerHTML = '';
