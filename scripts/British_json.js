@@ -49,6 +49,8 @@ async function getPeople(url) {
     }
 };
 
+getPeople();
+
 const reset = () => {
     document.querySelector('#people').innerHTML = '';
 }
@@ -128,3 +130,5 @@ const sortBy = () => {
             break;
     }
 }
+
+document.querySelector('#sortBy').addEventListener('change', sortBy);
