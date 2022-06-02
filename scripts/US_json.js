@@ -46,7 +46,7 @@ const output = (people) => {
             article.appendChild(birthPlace);
             article.appendChild(deathDate);
             article.appendChild(deathPlace);
-            article.appendChild(img);
+            // article.appendChild(img);
             article.appendChild(linebreak);
 
             document.querySelector('#uspeople').appendChild(article);

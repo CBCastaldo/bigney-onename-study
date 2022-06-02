@@ -8,8 +8,8 @@ async function getPeople(url) {
     if (response.ok) {
         const data = await response.json();
         output(data);
-    // } else (!response.ok); {
-	// 	throw new Error(`HTTP error! status: ${response.status}`);
+    } else (!response.ok); {
+		throw new Error(`HTTP error! status: ${response.status}`);
     }
 };
 
@@ -46,7 +46,7 @@ const output = (people) => {
             article.appendChild(birthPlace);
             article.appendChild(deathDate);
             article.appendChild(deathPlace);
-            article.appendChild(img);
+            // article.appendChild(img);
             article.appendChild(linebreak);
 
             document.querySelector('#englishpeople').appendChild(article);
