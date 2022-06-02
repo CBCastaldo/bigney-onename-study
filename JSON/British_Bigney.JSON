@@ -5,7 +5,7 @@
         "personLastName": "Bigney",
         "birthDate": "",
         "birthPlace": "",
-        "deathDate": "11/12/1826",
+        "deathDate": "1826-11-12",
         "deathPlace": "Swanton, Abbot, Norfolk, England, United Kingdom",
         "imageUrl": ""
     },
@@ -13,7 +13,7 @@
         "personFirstName": "Thomas",
         "personMiddleName": "",
         "personLastName": "Bigney",
-        "birthDate": "01/16/1680",
+        "birthDate": "1680-01-16",
         "birthPlace": "Honing, Norfolk, England",
         "deathDate": "05/22/1681",
         "deathPlace": "Honing, Norfolk, England",
@@ -25,7 +25,7 @@
         "personLastName": "Bigney",
         "birthDate": "",
         "birthPlace": "",
-        "deathDate": "01/20/1828",
+        "deathDate": "1828-01-20",
         "deathPlace": "Gillingham, Norfolk, England, United Kingdom",
         "imageUrl": ""
     }

@@ -3,7 +3,7 @@
         "personFirstName": "André",
         "personMiddleName": "",
         "personLastName": "Bigney",
-        "birthDate": "04/16/1826",
+        "birthDate": "1826-04-16",
         "birthPlace": "Lugon-et-L'Ile-du-Carney, France",
         "deathDate": "",
         "deathPlace": "",
@@ -13,7 +13,7 @@
         "personFirstName": "Antoine",
         "personMiddleName": "",
         "personLastName": "Bigney",
-        "birthDate": "01/29/1844",
+        "birthDate": "1844-01-29",
         "birthPlace": "Bouscat, France",
         "deathDate": "",
         "deathPlace": "",
@@ -25,7 +25,7 @@
         "personLastName": "Bigney",
         "birthDate": "",
         "birthPlace": "",
-        "deathDate": "05/03/1812",
+        "deathDate": "1812-05-03",
         "deathPlace": "Bayonne, Basses-Pyrénées, Aquitaine, France",
         "imageUrl": ""
     }
