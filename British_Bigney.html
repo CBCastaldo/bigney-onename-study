@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bigney One-Name Study</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo-box">
+        <img
+          src="images/Bigney One-Name Study white square.png"
+          alt="Bigney One-Name Study logo"
+        />
+      </div>
+      <!-- <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="statistics.html">Statistics</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav> -->
+    </header>
+    <!-- Side navigation -->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="/index.html">Home</a>
+      <a href="#" class="active">British Bigney Groups</a>
+      <a href="/Canadian_Bigney.html">Canadian Bigney Groups</a>
+      <a href="/French_Bigney.html">French Bigney Groups</a>
+      <a href="/US_Bigney.html">US Bigney Groups</a>
+      <a href="/statistics.html">Statistics</a>
+      <a href="/contact.html">Contact</a>
+    </div>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+    <main>
+      <h1>British Bigney Groups</h1>
+      <section>
+        <p>
+            Sort by: 
+            <select id="sortBy">
+                <option value="FirstNameAscending">First Name Ascending</option>
+                <option value="FirstNameDescending">First Name Descending</option>
+                <option value="BirthDateAscending">Birth Date Ascending</option>
+                <option value="BirthDateDescending">Birth Date Descending</option>
+                <option value="DeathDateAscending">Death Date Ascending</option>
+                <option value="DeathDateDescending">Death Date Descending</option>
+            </select>
+        </p>
+        <div id="people">
+        </div>
+      </section>
+    </main>
+    <footer>
+      &copy;<span id="year">Bigney One-Name Study</span> | Home
+
+      <div class="social" style="overflow: hidden; display: inline-block">
+        <a href="site-plan.html">Site Plan</a>
+        <img
+          src="images/Site Plan.png"
+          alt="Site Plan"
+        />
+        <a href="https://www.facebook.com" target="_blank">
+          <img
+            src="images/facebook (1).png"
+            alt="Facebook Page"
+          />
+        </a>
+        <a href="https://www.Instagram.com" target="_blank">
+          <img
+            src="images/instagram (1).png"
+            alt="Instagram Page"
+          />
+        </a>
+      </div>
+    </footer>
+  <script src="scripts/main.js"></script>
+  </body>
+</html>

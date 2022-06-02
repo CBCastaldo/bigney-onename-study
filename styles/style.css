@@ -50,13 +50,13 @@ header {
   grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
 }
 
-p {
+/* p {
   
 }
 
 img {
   
-}
+} */
 
 nav a {
   color: black;
@@ -69,13 +69,13 @@ main {
   padding: 0.5em;
 }
 
-#content { 
+/* #content { 
   
 }
 
 div {
   
-}
+} */
 
 .home-grid {
   display: grid;

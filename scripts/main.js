@@ -9,7 +9,6 @@ function openNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
   }
-  }
 
 const currentYear = new Date().getFullYear();
 document.querySelector('#year').innerHTML = currentYear;
