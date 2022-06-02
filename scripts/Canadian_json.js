@@ -6,8 +6,8 @@ let results = null;
 async function getPeople(url) {
     const response = await fetch(url);
     if (response.ok) {
-        const CanadianBigneyList = await response.json();
-        output(CanadianBigneyList);
+        const data = await response.json();
+        output(data);
     } else (!response.ok); {
 		throw new Error(`HTTP error! status: ${response.status}`);
     }
