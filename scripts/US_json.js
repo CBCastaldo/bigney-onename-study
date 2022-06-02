@@ -1,6 +1,6 @@
 let USBigneyList = [];
 
-const url = '../JSON/US_Bigney.json';
+const url = "../JSON/us_bigney.json";
 let results = null;
 
 async function getPeople(url) {

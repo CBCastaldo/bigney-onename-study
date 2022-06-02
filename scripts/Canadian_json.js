@@ -1,6 +1,6 @@
 let CanadianBigneyList = [];
 
-const url = "../JSON/Canadian_Bigney.json";
+const url = "../JSON/canadian_bigney.json";
 let results = null;
 
 async function getPeople(url) {
